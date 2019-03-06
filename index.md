@@ -13,7 +13,7 @@ enddate: 2019-03-27        # machine-readable end date for the workshop in YYYY-
 instructor: ["Sarah M Brown"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["TBA"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["smb@sarahmbrown.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes: https://pad.carpentries.org/2019-03-27-NSBE            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -48,7 +48,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 > ##  #NSBE45 Exclusive Event
 > ### This workshop is a part of the National Society of Black Engineer's 45th Annual Convention and only for registered attendees of the conference
-> Subevent registration information will be provided soon
+> This is a child event to NSBE registration and is sold out. Send an e-mail to join the waitlist.
 {: .prereq}
 
 <h2 id="general">General Information</h2>
@@ -392,7 +392,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
 
-<div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatability
+<!-- <div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatability
            is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
   <h3>Git</h3>
   <p>
@@ -449,7 +449,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       </p>
     </div>
   </div>
-</div> {% comment %} End of 'Git' section. {% endcomment %}
+</div> {% comment %} End of 'Git' section. {% endcomment %} -->
 
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
   <h3>Text Editor</h3>
@@ -603,7 +603,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </p>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
-
+<!--
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
   <p>
@@ -649,7 +649,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
       <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
     </div>
   </div>
-</div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
+</div> {% comment %} End of 'OpenRefine' section. {% endcomment %} -->
 
 {% comment %}
 <div id="vm">
